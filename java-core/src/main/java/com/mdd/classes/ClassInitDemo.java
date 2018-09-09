@@ -7,12 +7,16 @@ package com.mdd.classes;
  * @Description:
  */
 public class ClassInitDemo {
-    private static int num ;
+    private Integer s;
+    private static int num;
 
     static {
         System.out.println(num);
         num = 20;
+        int i = 0;
         System.out.println(num);
+        System.out.println("hello world!");
+
     }
 
     public static void main(String[] args) {

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mdd.mybatis.dao.UserDao" >
+    <resultMap id="BaseResultMap" type="com.mdd.mybatis.dao.vo.User">
+        <id column="user_id" property="userId" jdbcType="VARCHAR"/>
+        <result column="name" property="name" typeHandler="com.mdd.mybatis.typehandle.MyTypeHandle"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="age" property="age" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+     user_id,name,password, age
+    </sql>
+
+
+    <insert id="saveUser">
+      INSERT INTO t_user(user_id,name, password, age) VALUES (
+        #{userId,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},
+        #{password,jdbcType=VARCHAR},#{age,jdbcType=INTEGER}
+      )
+    </insert>
+
+    <insert id="saveUserWithType">
+      INSERT INTO t_user(user_id,name, password, age) VALUES (
+        #{userId,jdbcType=VARCHAR},#{name,typeHandler=com.mdd.mybatis.typehandle.MyTypeHandle},
+        #{password,jdbcType=VARCHAR},#{age,jdbcType=INTEGER}
+      )
+    </insert>
+
+    <select id="queryUser" resultMap="BaseResultMap">
+      select * from t_user where user_id = #{userId,jdbcType=VARCHAR}
+    </select>
+
+</mapper>
