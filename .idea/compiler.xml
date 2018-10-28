@@ -10,6 +10,7 @@
         <module name="java8-practice" />
         <module name="juc-practice" />
         <module name="mybatis-learn" />
+        <module name="spring-learn" />
       </profile>
     </annotationProcessing>
   </component>

@@ -2,6 +2,7 @@ package com.mdd.mybatis.service.impl;
 
 import com.mdd.mybatis.dao.OrderDao;
 import com.mdd.mybatis.dao.vo.Order;
+import com.mdd.mybatis.dao.vo.Status;
 import com.mdd.mybatis.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,7 @@ public class OrderServiceImpl implements OrderService {
     public int saveOrder(Order order) {
         Order.builder().name("月饼")
                 .orderId("20132011")
-                .status(Order.Status.INIT)
+                .status(Status.INIT)
                 .type(Order.Type.food)
                 .build();
         return orderDao.saveOrder(order);

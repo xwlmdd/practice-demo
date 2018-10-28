@@ -11,7 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class MyTypeHandle implements TypeHandler<String> {
-    private static String KEY = "123456";
+    private static String KEY = "A1B2C3D4E5F60708";
 
     @Override
     public void setParameter(PreparedStatement preparedStatement, int i, String s, JdbcType jdbcType) throws SQLException {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.mdd.mybatis.dao.OrderDao" >
-    <resultMap id="BaseResultMap" type="com.mdd.mybatis.dao.vo.Order">
+<mapper namespace="com.mdd.spring.tx.dao.OrderDao">
+    <resultMap id="BaseResultMap" type="com.mdd.spring.tx.dao.vo.Order">
         <id column="id" property="id" jdbcType="INTEGER"/>
         <result column="order_id" property="orderId" jdbcType="VARCHAR"/>
         <result column="name" property="name" jdbcType="VARCHAR"/>
@@ -9,19 +9,23 @@
         <result column="status" property="status" jdbcType="INTEGER"/>
     </resultMap>
 
-    <sql id="Base_Column_List" >
+    <sql id="Base_Column_List">
      id,order_id,`name`,`type`, status
     </sql>
 
     <insert id="saveOrder">
       INSERT INTO t_order(order_id,`name`, `type`, status) VALUES (
-        #{orderId,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},
-        #{type,jdbcType=VARCHAR},#{status}
+        #{order_id,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},
+        #{type,jdbcType=VARCHAR},#{status,jdbcType=INTEGER}
       )
     </insert>
 
     <select id="queryOrder" resultMap="BaseResultMap">
-      select * from t_order where order_id = #{orderId}
+      select * from t_order where order_id = #{orderId,jdbcType=VARCHAR}
     </select>
+
+    <update id="updateOrder">
+        update t_order set status = #{status,jdbcType=INTEGER} where order_id = #{orderId,jdbcType=VARCHAR}
+    </update>
 
 </mapper>

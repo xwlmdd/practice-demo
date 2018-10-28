@@ -13,8 +13,4 @@
         <!--<typeHandler handler="com.mdd.mybatis.typehandle.MyTypeHandle"></typeHandler>-->
     <!--</typeHandlers>-->
 
-    <typeHandlers>
-        <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" javaType="com.mdd.mybatis.dao.vo.Status"/>
-    </typeHandlers>
-
 </configuration>

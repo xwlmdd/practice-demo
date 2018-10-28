@@ -1,4 +1,4 @@
-package com.mdd.mybatis.dao.vo;
+package com.mdd.spring.tx.dao.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,7 +14,7 @@ public class Order {
     private String orderId;
     private String name;
     private Type type;
-    private Status status;
+    private Integer status;
 
     public enum Type {
         education, advertising, trip, food
