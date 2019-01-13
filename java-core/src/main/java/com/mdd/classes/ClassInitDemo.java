@@ -16,10 +16,18 @@ public class ClassInitDemo {
         int i = 0;
         System.out.println(num);
         System.out.println("hello world!");
+    }
 
+    public void printCurrencyclassPath(){
+        System.out.println(this.getClass().getClassLoader().getResource(""));
+        System.out.println(this.getClass().getClassLoader().getParent());
     }
 
     public static void main(String[] args) {
-        new ClassInitDemo();
+
+        ClassInitDemo classInitDemo = new ClassInitDemo();
+        classInitDemo.printCurrencyclassPath();
+
+
     }
 }
