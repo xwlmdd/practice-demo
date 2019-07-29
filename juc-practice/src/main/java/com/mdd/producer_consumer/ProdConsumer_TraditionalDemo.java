@@ -16,7 +16,7 @@ class Resource {
 
     public void produce() throws InterruptedException {
         lock.lock();
-        while (resourceNum != 0) {
+        while (resourceNum >= 10) {
             condition.await();
         }
         try {
@@ -30,7 +30,7 @@ class Resource {
 
     public void consume() throws InterruptedException {
         lock.lock();
-        while (resourceNum == 0) {
+        while (resourceNum <= 0) {
             condition.await();
         }
         try {
@@ -48,7 +48,7 @@ public class ProdConsumer_TraditionalDemo {
         Resource resource = new Resource();
         new Thread(() -> {
             try {
-                for (int i = 0; i < 10; i++) {
+                while (true){
                     resource.produce();
                 }
             } catch (InterruptedException e) {
@@ -58,7 +58,7 @@ public class ProdConsumer_TraditionalDemo {
 
         new Thread(() -> {
             try {
-                for (int i = 0; i < 10; i++) {
+                while (true){
                     resource.consume();
                 }
             } catch (InterruptedException e) {
@@ -68,7 +68,7 @@ public class ProdConsumer_TraditionalDemo {
 
         new Thread(() -> {
             try {
-                for (int i = 0; i < 10; i++) {
+                while (true){
                     resource.consume();
                 }
             } catch (InterruptedException e) {
