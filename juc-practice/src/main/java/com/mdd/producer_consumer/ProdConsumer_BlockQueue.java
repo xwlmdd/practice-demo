@@ -27,7 +27,7 @@ public class ProdConsumer_BlockQueue {
      */
     private void produce() throws InterruptedException {
         while (isFull){
-            Thread.sleep(1000);
+            Thread.sleep(10);
             blockingQueue.put(resourceNum.incrementAndGet());
             System.out.println(Thread.currentThread().getName()+" 生产了\t"+resourceNum.get());
         }
@@ -46,7 +46,7 @@ public class ProdConsumer_BlockQueue {
         ProdConsumer_BlockQueue prodConsumer_blockQueue = new ProdConsumer_BlockQueue(new ArrayBlockingQueue<Integer>(1) {
         });
         new Thread(()->{
-            while (true){
+            while (true) {
                 try {
                     prodConsumer_blockQueue.produce();
                 } catch (InterruptedException e) {
@@ -64,6 +64,16 @@ public class ProdConsumer_BlockQueue {
                 }
             }
         },"BB").start();
+
+        new Thread(()->{
+            while (true){
+                try {
+                    prodConsumer_blockQueue.consume();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        },"CC").start();
     }
 
 

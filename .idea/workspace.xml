@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fceb0d7c-5c3f-4939-a813-eedc9a045968" name="Default Changelist" comment="修改部分pom">
-      <change afterPath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/DeadLockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_TraditionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_TraditionalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/java-core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -129,7 +129,7 @@
         <counts>
           <entry key="class" value="31" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="159" />
+          <entry key="java" value="160" />
           <entry key="properties" value="2" />
           <entry key="xml" value="16" />
           <entry key="yml" value="5" />
@@ -138,7 +138,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="31" />
-          <entry key="JAVA" value="159" />
+          <entry key="JAVA" value="160" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="16" />
@@ -149,7 +149,7 @@
         <counts>
           <entry key="class" value="14" />
           <entry key="dummy" value="7" />
-          <entry key="java" value="3922" />
+          <entry key="java" value="4124" />
           <entry key="txt" value="21" />
           <entry key="xml" value="189" />
           <entry key="yml" value="15" />
@@ -158,7 +158,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="14" />
-          <entry key="JAVA" value="3922" />
+          <entry key="JAVA" value="4124" />
           <entry key="PLAIN_TEXT" value="28" />
           <entry key="XML" value="189" />
           <entry key="YAML" value="15" />
@@ -206,16 +206,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="254">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/DeadLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -229,15 +238,6 @@
                 <element signature="e#4725#4726#0" expanded="true" />
                 <element signature="e#4793#4794#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13755">
-              <caret line="972" column="18" selection-start-line="972" selection-start-column="18" selection-end-line="972" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -332,7 +332,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/mybatis-learn/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/controller/UserController.java" />
         <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/SpringLearnApplication.java" />
@@ -383,6 +382,7 @@
         <option value="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/SpinlockDemo.java" />
         <option value="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_TraditionalDemo.java" />
         <option value="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java" />
+        <option value="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/DeadLockDemo.java" />
       </list>
     </option>
   </component>
@@ -436,6 +436,12 @@
             <id>CodeSpring CoreSpring</id>
           </State>
           <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
             <id>Mybatis</id>
           </State>
           <State>
@@ -447,7 +453,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+            <id>InfiniteLoopStatement</id>
           </State>
         </selected-state>
       </profile-state>
@@ -512,7 +518,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mdd" type="462c0819:PsiDirectoryNode" />
-              <item name="producer_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -558,7 +564,7 @@
     <property name="SearchEverywhereHistoryKey" value="String&#9;FILE&#9;jar:///Users/a/software/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/util/StringValueResolver.java&#10;createBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractBeanFactory#createBean&#10;loadBeanDef&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.BeanDefinitionReader#loadBeanDefinitions&#10;getBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory#getBean&#10;doload&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanDefinitionReader#doLoadBeanDefinitions&#10;XmlBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanDefinitionReader&#10;Resource&#9;PSI&#9;JAVA://org.springframework.core.io.Resource&#10;AbstractQue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;Bootst&#9;PSI&#9;JAVA://jdk.nashorn.internal.runtime.linker.Bootstrap&#10;BootStrapClass&#9;PSI&#9;JAVA://net.bytebuddy.agent.builder.AgentBuilder.Default.Transformation.Simple.Resolution.BootstrapClassLoaderCapableInjectorFactory&#10;ExtClassLoader&#9;PSI&#9;JAVA://sun.misc.Launcher.ExtClassLoader&#10;RedisAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564410314926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564587840019" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -599,7 +605,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProdConsumer_BlockQueue">
+  <component name="RunManager" selected="Application.DeadLockDemo">
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mdd.lock.DeadLockDemo" />
+      <module name="juc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mdd.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProdConsumer_BlockQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mdd.producer_consumer.ProdConsumer_BlockQueue" />
       <module name="juc-practice" />
@@ -652,22 +671,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreanApiTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mdd.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mdd.lambda" />
-      <option name="MAIN_CLASS_NAME" value="com.mdd.lambda.StreanApiTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mybatis-learn" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdd.mybatis.Application" />
@@ -709,19 +712,19 @@
       <item itemvalue="Spring Boot.MybatisLearnApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.SpringLearnApplication" />
-      <item itemvalue="JUnit.StreanApiTest.test1" />
       <item itemvalue="Application.Singleton" />
       <item itemvalue="Application.SpinlockDemo" />
       <item itemvalue="Application.ProdConsumer_TraditionalDemo" />
       <item itemvalue="Application.ProdConsumer_BlockQueue" />
+      <item itemvalue="Application.DeadLockDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.ProdConsumer_BlockQueue" />
         <item itemvalue="Application.ProdConsumer_TraditionalDemo" />
         <item itemvalue="Application.SpinlockDemo" />
         <item itemvalue="Application.Singleton" />
-        <item itemvalue="JUnit.StreanApiTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -786,7 +789,7 @@
       <workItem from="1554026954473" duration="10000" />
       <workItem from="1555816538525" duration="1463000" />
       <workItem from="1558722198106" duration="1835000" />
-      <workItem from="1562465670597" duration="15118000" />
+      <workItem from="1562465670597" duration="17606000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis自定义类型处理器（typehandler）">
       <created>1536481735931</created>
@@ -866,7 +869,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174114000" />
+    <option name="totallyTimeSpent" value="176602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
@@ -882,16 +885,16 @@
       <window_info id="Web" order="7" sideWeight="0.47771588" side_tool="true" weight="0.20529328" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.18627451" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7496424" visible="true" weight="0.25350142" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.74821174" visible="true" weight="0.18907563" />
       <window_info anchor="bottom" auto_hide="true" id="Debug" order="3" sideWeight="0.4985694" weight="0.30952382" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.66523606" weight="0.2464986" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.25035766" side_tool="true" visible="true" weight="0.25350142" />
+      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49928468" weight="0.32913166" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.66452074" weight="0.2464986" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.25178826" side_tool="true" visible="true" weight="0.18907563" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4985694" weight="0.32633054" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.6981402" weight="0.1545961" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
@@ -929,13 +932,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/juc-practice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1222,13 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13755">
-          <caret line="972" column="18" selection-start-line="972" selection-start-column="18" selection-end-line="972" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/util/StringValueResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1294,6 +1283,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="972" column="18" selection-start-line="972" selection-start-column="18" selection-end-line="972" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1307,13 +1303,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="254">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
         </state>
       </provider>
     </entry>
