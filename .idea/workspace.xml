@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fceb0d7c-5c3f-4939-a813-eedc9a045968" name="Default Changelist" comment="修改部分pom">
-      <change afterPath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/DeadLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/classloader/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/ConcurrencyHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/HashMap1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/HashMapHangDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/LinkedHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/keyworld/FinalKeyWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/string/StringIntern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/cas/ABA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/bo/ItemBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/bo/OrderBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/enums/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/oom/HeapOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-core/src/main/java/com/mdd/jvm/HeapOOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-core/target/classes/com/mdd/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-core/target/classes/com/mdd/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-core/target/classes/com/mdd/classes/ClassInitDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-core/target/classes/com/mdd/classes/ClassInitDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-core/target/classes/com/mdd/oom/HeapOOM$OOMObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-core/target/classes/com/mdd/oom/HeapOOM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-core/target/classes/com/mdd/string/StringLearn.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-core/target/classes/com/mdd/string/StringLearn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-core/target/test-classes/com/mdd/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-core/target/test-classes/com/mdd/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learn/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/java-core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,6 +39,7 @@
     <ignored path="$PROJECT_DIR$/mybatis-learn/target/" />
     <ignored path="$PROJECT_DIR$/../java/practice-demo/spring-learn/target/" />
     <ignored path="$PROJECT_DIR$/spring-learn/target/" />
+    <ignored path="$PROJECT_DIR$/laboratory/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,58 +136,72 @@
     <session id="1513852656">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="4" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="31" />
+          <entry key="CacheFactory" value="1" />
+          <entry key="MF" value="3" />
+          <entry key="ModelElementProcessor" value="1" />
+          <entry key="Serialization" value="1" />
+          <entry key="class" value="115" />
+          <entry key="dtd" value="4" />
+          <entry key="ftl" value="14" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="160" />
+          <entry key="java" value="393" />
+          <entry key="pom" value="2" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="16" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="24" />
+          <entry key="xsd" value="2" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="31" />
-          <entry key="JAVA" value="160" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="115" />
+          <entry key="DTD" value="4" />
+          <entry key="FTL" value="14" />
+          <entry key="JAVA" value="393" />
+          <entry key="Manifest" value="3" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="16" />
+          <entry key="SPI" value="1" />
+          <entry key="XML" value="28" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="class" value="14" />
-          <entry key="dummy" value="7" />
-          <entry key="java" value="4124" />
+          <entry key="class" value="15" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="6585" />
           <entry key="txt" value="21" />
-          <entry key="xml" value="189" />
+          <entry key="xml" value="237" />
           <entry key="yml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CLASS" value="14" />
-          <entry key="JAVA" value="4124" />
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="XML" value="189" />
+          <entry key="CLASS" value="15" />
+          <entry key="JAVA" value="6585" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="XML" value="237" />
           <entry key="YAML" value="15" />
         </counts>
       </usages-collector>
@@ -172,115 +213,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/volatiles/Singleton.java">
+        <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/mapper/OrderMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/SpinlockDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_TraditionalDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="37" column="89" lean-forward="true" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/DeadLockDemo.java">
+        <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="182" column="19" lean-forward="true" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
-                <element signature="e#4725#4726#0" expanded="true" />
-                <element signature="e#4793#4794#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/util/StringValueResolver.java">
+        <entry file="file://$PROJECT_DIR$/laboratory/target/classes/com/mdd/laboratory/mapstruct/mapper/OrderMapper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="195">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+        <entry file="file://$PROJECT_DIR$/laboratory/target/classes/com/mdd/laboratory/mapstruct/mapper/OrderMapperImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
+            <state relative-caret-position="195">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+        <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final-sources.jar!/org/mapstruct/Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5940">
-              <caret line="432" selection-start-line="432" selection-end-line="432" />
+            <state relative-caret-position="336">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final-sources.jar!/org/mapstruct/NullValueCheckStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final-sources.jar!/org/mapstruct/Builder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final-sources.jar!/org/mapstruct/ReportingPolicy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/OrderDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
-                <element signature="e#10361#10362#0" expanded="true" />
-                <element signature="e#10388#10389#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java8-practice/src/main/java/com/mdd/lambda/Employee.java">
+        <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/bo/OrderBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="224">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -295,16 +321,13 @@
         <option value="mybatis-config" />
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aCallable</find>
-      <find>MybatisLearnApplication</find>
-      <find>BaseResultMap</find>
-      <find>用户</find>
       <find>RedisAutoConfiguration</find>
       <find>saveUserTest</find>
       <find>Aservice</find>
@@ -317,6 +340,24 @@
       <find>parseBeanDefinitionElement</find>
       <find>violate</find>
       <find>compare</find>
+      <find>append</find>
+      <find>Segment</find>
+      <find>compareAndSwapInt</find>
+      <find>put</find>
+      <find>putVal</find>
+      <find>initTable</find>
+      <find>newNode(</find>
+      <find>resize(</find>
+      <find>TreeNode</find>
+      <find>header</find>
+      <find>newNode</find>
+      <find>afterNodeInsertion</find>
+      <find>put(</find>
+      <find>ClassPathXmlApplicationContext</find>
+      <find>doExport</find>
+      <find>initProcessAnnotations</find>
+      <find>compile</find>
+      <find>suppressGeneratorVersionInfoComment</find>
     </findStrings>
     <replaceStrings>
       <replace>订单</replace>
@@ -332,34 +373,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/SpringLearnApplication.java" />
-        <option value="$PROJECT_DIR$/mybatis-learn/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/dao/vo/User.java" />
-        <option value="$PROJECT_DIR$/spring-learn/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/resources/mybatis/mapper/UserDao.xml" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/util/DESUtil.java" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/typehandle/MyTypeHandle.java" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/resources/mybatis/mapper/OrderDao.xml" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/dao/vo/Status.java" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/dao/vo/Order.java" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/resources/mybatis/mybatis.xml" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/mybatis-learn/src/test/java/com/mdd/mybatis/service/OrderServiceTest.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/isolation/Aservice.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/dao/vo/User.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/dao/vo/Order.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/service/Aservice.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/service/AService.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/service/BService.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/service/impl/Orderservice.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/main/resources/mybatis/mapper/OrderDao.xml" />
-        <option value="$PROJECT_DIR$/spring-learn/src/test/java/com/mdd/spring/tx/ApplicationTests.java" />
-        <option value="$PROJECT_DIR$/spring-learn/src/test/java/com/mdd/spring/tx/BizServiceTest.java" />
         <option value="$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/typehandle/MyTypeHandle.java" />
         <option value="$PROJECT_DIR$/spring-learn/src/main/resources/mybatis/mapper/UserDao.xml" />
         <option value="$PROJECT_DIR$/spring-learn/src/main/resources/mybatis/mybatis.xml" />
@@ -383,6 +396,34 @@
         <option value="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_TraditionalDemo.java" />
         <option value="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java" />
         <option value="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/DeadLockDemo.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/jvm/oom/HeapOOM.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/string/StringIntern.java" />
+        <option value="$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/cas/ABA.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/ConcurrencyHashMapDemo.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/HashMapHangDemo.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/HashMap1.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/LinkedHashMapDemo.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/classloader/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/jvm/HeapOOM.java" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/package-info.java" />
+        <option value="$PROJECT_DIR$/spring-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/java-core/src/main/java/com/mdd/keyworld/FinalKeyWorld.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/Application.java" />
+        <option value="$PROJECT_DIR$/mybatis-learn/src/main/java/com/mdd/mybatis/dao/vo/Order.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/Order.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/test/java/com/mdd/laboratory/LaboratoryApplicationTests.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/bo/ItemBO.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/ItemBO.java" />
+        <option value="$PROJECT_DIR$/laboratory/pom.xml" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/mapper/A.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/LogisticDTO.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/AddressDTO.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/ItemDTO.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/enums/Type.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/bo/OrderBO.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/OrderDTO.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/OrderService.java" />
       </list>
     </option>
   </component>
@@ -396,7 +437,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/software/repository" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="$USER_HOME$/software/apache-maven-3.5.4/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -411,12 +451,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mybatis-learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="laboratory" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mybatis-learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="laboratory" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -425,7 +465,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -467,7 +507,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -478,80 +520,211 @@
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="mapstruct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="mapstruct" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="mapstruct" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="mapstruct" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mdd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mdd" type="462c0819:PsiDirectoryNode" />
-              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mdd" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="mapstruct" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mdd" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratory" type="462c0819:PsiDirectoryNode" />
+              <item name="mapstruct" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -564,25 +737,29 @@
     <property name="SearchEverywhereHistoryKey" value="String&#9;FILE&#9;jar:///Users/a/software/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/util/StringValueResolver.java&#10;createBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractBeanFactory#createBean&#10;loadBeanDef&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.BeanDefinitionReader#loadBeanDefinitions&#10;getBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory#getBean&#10;doload&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanDefinitionReader#doLoadBeanDefinitions&#10;XmlBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanDefinitionReader&#10;Resource&#9;PSI&#9;JAVA://org.springframework.core.io.Resource&#10;AbstractQue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;Bootst&#9;PSI&#9;JAVA://jdk.nashorn.internal.runtime.linker.Bootstrap&#10;BootStrapClass&#9;PSI&#9;JAVA://net.bytebuddy.agent.builder.AgentBuilder.Default.Transformation.Simple.Resolution.BootstrapClassLoaderCapableInjectorFactory&#10;ExtClassLoader&#9;PSI&#9;JAVA://sun.misc.Launcher.ExtClassLoader&#10;RedisAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564587840019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578845676643" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mdd.laboratory.mapstruct.bo" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mdd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mdd.laboratory.mapstruct.bo" />
       <recent name="com.mdd.spring.tx.typehandle" />
       <recent name="com.mdd.mybatis.service" />
       <recent name="com.mdd.mybatis.dao.vo" />
@@ -605,13 +782,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadLockDemo">
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mdd.lock.DeadLockDemo" />
-      <module name="juc-practice" />
+  <component name="RunManager" selected="Application.OrderService">
+    <configuration name="FinalKeyWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mdd.keyworld.FinalKeyWorld" />
+      <module name="java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mdd.lock.*" />
+          <option name="PATTERN" value="com.mdd.keyworld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -619,12 +796,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdConsumer_BlockQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mdd.producer_consumer.ProdConsumer_BlockQueue" />
-      <module name="juc-practice" />
+    <configuration name="HashMap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mdd.collection.map.HashMap1" />
+      <module name="java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mdd.producer_consumer.*" />
+          <option name="PATTERN" value="com.mdd.collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -632,12 +809,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdConsumer_TraditionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mdd.producer_consumer.ProdConsumer_TraditionalDemo" />
-      <module name="juc-practice" />
+    <configuration name="HeapOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mdd.jvm.HeapOOM" />
+      <module name="java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mdd.producer_consumer.*" />
+          <option name="PATTERN" value="com.mdd.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -645,12 +822,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mdd.volatiles.Singleton" />
-      <module name="juc-practice" />
+    <configuration name="LinkedHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mdd.collection.map.LinkedHashMapDemo" />
+      <module name="java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mdd.volatiles.*" />
+          <option name="PATTERN" value="com.mdd.collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -658,15 +835,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpinlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mdd.lock.SpinlockDemo" />
-      <module name="juc-practice" />
+    <configuration name="OrderService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mdd.laboratory.mapstruct.OrderService" />
+      <module name="laboratory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mdd.lock.*" />
+          <option name="PATTERN" value="com.mdd.laboratory.mapstruct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdd.spring.tx.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -692,6 +876,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LaboratoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="laboratory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdd.laboratory.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mybatis-learn" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdd.mybatis.mybatislearn.MybatisLearnApplication" />
@@ -712,19 +903,21 @@
       <item itemvalue="Spring Boot.MybatisLearnApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.SpringLearnApplication" />
-      <item itemvalue="Application.Singleton" />
-      <item itemvalue="Application.SpinlockDemo" />
-      <item itemvalue="Application.ProdConsumer_TraditionalDemo" />
-      <item itemvalue="Application.ProdConsumer_BlockQueue" />
-      <item itemvalue="Application.DeadLockDemo" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.LaboratoryApplication" />
+      <item itemvalue="Application.HashMap1" />
+      <item itemvalue="Application.LinkedHashMapDemo" />
+      <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.FinalKeyWorld" />
+      <item itemvalue="Application.OrderService" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeadLockDemo" />
-        <item itemvalue="Application.ProdConsumer_BlockQueue" />
-        <item itemvalue="Application.ProdConsumer_TraditionalDemo" />
-        <item itemvalue="Application.SpinlockDemo" />
-        <item itemvalue="Application.Singleton" />
+        <item itemvalue="Application.OrderService" />
+        <item itemvalue="Application.FinalKeyWorld" />
+        <item itemvalue="Application.HeapOOM" />
+        <item itemvalue="Application.LinkedHashMapDemo" />
+        <item itemvalue="Application.HashMap1" />
       </list>
     </recent_temporary>
   </component>
@@ -789,7 +982,17 @@
       <workItem from="1554026954473" duration="10000" />
       <workItem from="1555816538525" duration="1463000" />
       <workItem from="1558722198106" duration="1835000" />
-      <workItem from="1562465670597" duration="17606000" />
+      <workItem from="1562465670597" duration="21710000" />
+      <workItem from="1565517127498" duration="38794000" />
+      <workItem from="1568727852936" duration="1880000" />
+      <workItem from="1569510096706" duration="4513000" />
+      <workItem from="1570169733626" duration="724000" />
+      <workItem from="1570346969821" duration="560000" />
+      <workItem from="1571457990952" duration="821000" />
+      <workItem from="1572072154317" duration="1178000" />
+      <workItem from="1572679318818" duration="7263000" />
+      <workItem from="1577700076512" duration="22203000" />
+      <workItem from="1578752256610" duration="13590000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis自定义类型处理器（typehandler）">
       <created>1536481735931</created>
@@ -869,14 +1072,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176602000" />
+    <option name="totallyTimeSpent" value="272232000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51960784" visible="true" weight="0.23390558" />
-      <window_info x="576" y="257" width="409" height="342" id="Structure" order="1" sideWeight="0.48039216" side_tool="true" weight="0.18025751" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72210956" visible="true" weight="0.21030043" />
+      <window_info x="576" y="257" width="409" height="342" id="Structure" order="1" sideWeight="0.27789047" side_tool="true" weight="0.17596567" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -884,30 +1087,31 @@
       <window_info id="Favorites" order="6" sideWeight="0.47910863" side_tool="true" weight="0.20100144" />
       <window_info id="Web" order="7" sideWeight="0.47771588" side_tool="true" weight="0.20529328" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.18627451" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.74821174" visible="true" weight="0.18907563" />
-      <window_info anchor="bottom" auto_hide="true" id="Debug" order="3" sideWeight="0.4985694" weight="0.30952382" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.397541" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7453505" visible="true" weight="0.017759563" />
+      <window_info anchor="bottom" auto_hide="true" id="Debug" order="3" sideWeight="0.4985694" weight="0.37955183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49928468" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.66452074" weight="0.2464986" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.25178826" side_tool="true" visible="true" weight="0.18907563" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4985694" weight="0.32633054" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6623748" weight="0.3306011" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2546495" side_tool="true" weight="0.47814208" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49785408" weight="0.3251366" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.6981402" weight="0.1545961" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.3286517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2825465" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.4320458" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.16380544" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.369814" />
-      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.15236051" />
+      <window_info anchor="right" id="SciView" order="9" weight="0.3297568" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297568" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="11" side_tool="true" weight="0.3297568" />
     </layout>
@@ -927,396 +1131,406 @@
     <MESSAGE value="修改部分pom" />
     <option name="LAST_COMMIT_MESSAGE" value="修改部分pom" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <line>2223</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-core/src/main/java/com/mdd/collection/map/ConcurrencyHashMapDemo.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <line>1013</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/Application.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/util/Fields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-566">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/core/AliasRegistry.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/IterableCreation.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="154">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/org/xml/sax/InputSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/core/io/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/core/io/support/EncodedResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="1350" column="26" selection-start-line="1350" selection-start-column="26" selection-end-line="1350" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="143" column="23" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="299" column="7" lean-forward="true" selection-start-line="299" selection-start-column="7" selection-end-line="299" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionDocumentReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/ListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/business/BizService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/dao/vo/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/isolation/Aservice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/isolation/Bservice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/isolation/IsolationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-learn/src/main/java/com/mdd/spring/tx/service/impl/OrderserviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="1765" lean-forward="true" selection-start-line="1765" selection-end-line="1765" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="551" column="30" selection-start-line="551" selection-start-column="30" selection-end-line="551" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-practice/src/main/java/com/mdd/lambda/ForeachDemo.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/LifecycleCallbackMethodReference.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java8-practice/src/main/java/com/mdd/Java8PracticeApplication.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/AnnotatedConstructor.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java8-practice/pom.xml">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/BeanMappingMethod.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="-821" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/DefaultMapperReference.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/Field.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="403" selection-start-line="403" selection-end-line="403" />
+        <state relative-caret-position="120">
+          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/GeneratedType.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="611" selection-start-line="611" selection-end-line="611" />
+        <state relative-caret-position="454">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/ValueMappingMethod.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/TypeConversion.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE.jar!/org/springframework/transaction/PlatformTransactionManager.class">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/ServicesEntry.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/model/assignment/StreamAdderWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="-57">
+          <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/model/assignment/SetterWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6810">
-          <caret line="477" column="17" selection-start-line="477" selection-start-column="17" selection-end-line="477" selection-end-column="17" />
+        <state relative-caret-position="873">
+          <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.class">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/assignment/SetterWrapper.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="339" column="18" selection-start-line="339" selection-start-column="18" selection-end-line="339" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java8-practice/src/main/java/com/mdd/lambda/StreanApiTest.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/macro/CommonMacros.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-1394">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/MapMappingMethod.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar!/org/mapstruct/ap/internal/model/common/Type.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/processor/ModelElementProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/prism/MapperConfigPrism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/prism/MapperPrism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/util/MapperConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/model/MapperReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/util/FormattingMessager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/processing/JavacMessager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/processor/DefaultModelElementProcessorContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="127" column="33" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/model/GeneratedType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/model/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/model/MappingBuilderContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="145" column="43" selection-start-line="145" selection-start-column="43" selection-end-line="145" selection-end-column="43" />
+          <folding>
+            <element signature="e#6194#6195#0" expanded="true" />
+            <element signature="e#6243#6244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/util/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="97" column="49" selection-start-line="97" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/processor/MapperCreationProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="185" column="21" selection-start-line="185" selection-start-column="15" selection-end-line="185" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/processor/AnnotationBasedComponentModelProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/internal/processor/MapperRenderingProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/javax/lang/model/SourceVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="179" column="23" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
+          <folding>
+            <element signature="e#4477#4478#0" expanded="true" />
+            <element signature="e#4515#4516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final-sources.jar!/org/mapstruct/ap/MappingProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/javax/annotation/Generated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/mapper/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/bo/ItemBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/AddressDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/enums/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/ItemDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/dto/OrderDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE-sources.jar!/org/springframework/transaction/PlatformTransactionManager.java">
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/bo/OrderBO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        <state relative-caret-position="224">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE-sources.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final-sources.jar!/org/mapstruct/ReportingPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="242" column="33" selection-start-line="242" selection-start-column="33" selection-end-line="242" selection-end-column="33" />
+        <state relative-caret-position="184">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java8-practice/src/main/java/com/mdd/lambda/LambdaLearn.java">
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final-sources.jar!/org/mapstruct/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="156">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final-sources.jar!/org/mapstruct/NullValueCheckStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repository/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final-sources.jar!/org/mapstruct/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/target/classes/com/mdd/laboratory/mapstruct/mapper/OrderMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/target/classes/com/mdd/laboratory/mapstruct/mapper/OrderMapperImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laboratory/src/main/java/com/mdd/laboratory/mapstruct/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/util/StringValueResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5940">
-          <caret line="432" selection-start-line="432" selection-end-line="432" />
-          <folding>
-            <element signature="e#10361#10362#0" expanded="true" />
-            <element signature="e#10388#10389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-practice/src/main/java/com/mdd/lambda/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/volatiles/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/SpinlockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_TraditionalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="37" column="89" lean-forward="true" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="972" column="18" selection-start-line="972" selection-start-column="18" selection-end-line="972" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="182" column="19" lean-forward="true" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
-          <folding>
-            <element signature="e#4725#4726#0" expanded="true" />
-            <element signature="e#4793#4794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/producer_consumer/ProdConsumer_BlockQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc-practice/src/main/java/com/mdd/lock/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1373,12 +1587,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java-core</last-edited>
+          <last-edited>laboratory</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

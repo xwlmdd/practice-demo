@@ -1,4 +1,4 @@
-package com.mdd.oom;
+package com.mdd.jvm;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +11,7 @@ public class HeapOOM {
 
     public static void main(String[] args) {
         List<OOMObject> objects = new ArrayList<OOMObject>();
+
         while (true) {
             objects.add(new OOMObject());
         }
