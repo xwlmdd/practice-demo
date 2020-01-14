@@ -6,10 +6,9 @@ import com.mdd.laboratory.mapstruct.dto.OrderDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
-import org.mapstruct.ReportingPolicy;
 import org.mapstruct.factory.Mappers;
 
-@Mapper(unmappedSourcePolicy= ReportingPolicy.IGNORE)
+@Mapper(componentModel = "spring")
 public interface OrderMapper {
 
     OrderMapper INSTANCE = Mappers.getMapper(OrderMapper.class);
